@@ -1,0 +1,24 @@
+{
+  "name": "google-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r google-scrapper.zip . -x '*.git*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium": "^119.0.2",
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "graceful-fs": "^4.2.11",
+    "mongodb": "^6.3.0",
+    "puppeteer-core": "^21.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
